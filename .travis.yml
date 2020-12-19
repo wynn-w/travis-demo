@@ -4,6 +4,10 @@ node_js:
 cache:
   directories:
     - node_modules
+install: npm install
 scripts:
   - npm run test
 sudo: required
+brfore_script:
+  - exit(0)
+
