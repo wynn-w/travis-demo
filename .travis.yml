@@ -5,6 +5,5 @@ cache:
   directories:
     - node_modules
 scripts:
-  - travis_wait bash -c 'exit 1'
   - npm run test
 sudo: required
